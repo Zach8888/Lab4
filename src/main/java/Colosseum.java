@@ -37,6 +37,7 @@ public class Colosseum {
     static Scanner myScan;
 
     /**
+     *
      * How we will build our Pokemon to battle.
      * <p>
      * Obtain user input to set Pokemon's member variables
@@ -71,10 +72,17 @@ public class Colosseum {
      *         <p>
      *         Implement this function.
      */
+
+    //Scanner hitPoints = new Scanner(System.in);
+    firstPokemon dolphin = new firstPokemon();
+    dolphin.hitPoints() = 4;
+
+
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
         return tempPokemon;
     }
+
 
     /**
      * Prints who is ahead.
@@ -89,7 +97,11 @@ public class Colosseum {
      * <p>
      * Implement this function.
      */
+    }
     public static void printWhoIsAhead() {
+       // if (pokemon.hitPoints) {
+        //}
+
         System.out.println("Implement me!");
     }
 
